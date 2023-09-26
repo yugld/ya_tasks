@@ -8,5 +8,4 @@ const object = {
         console.log(`${this.value} is ${this.type()}`);
     }
 }
-
-object.print(); // Поправьте замыкание
+object.print(); 
