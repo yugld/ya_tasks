@@ -10,4 +10,5 @@ function second() {
 	// return ({...obj, ...first}).first()
 	//return first.call(obj);
 	return first.bind(obj)(); 
+	//ефылы
 }
