@@ -9,6 +9,6 @@ function second() {
 	// return first.bind(obj)(a);
 	// return ({...obj, ...first}).first()
 	//return first.call(obj);
-	//
+	
 	return first.bind(obj)(); 
 }
